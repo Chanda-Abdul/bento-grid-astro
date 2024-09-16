@@ -21,10 +21,9 @@ Your challenge is to build out this bento grid and get it looking as close to th
 
 Users should be able to:
 - [ ] View the optimal layout for the interface depending on their device's screen size
-
-#### Expected behaviour
-
-The two components in the left column on desktop are placed at the bottom on mobile. This is a good opportunity to practice your CSS Grid placement skills.
+<!-- To-do GSAP Animations -->
+**Expected behavior:** 
+- [ ] The two components in the left column on desktop are placed at the bottom on mobile. This is a good opportunity to practice your CSS Grid placement skills.
 
 ### Screenshot
 
@@ -39,19 +38,13 @@ The two components in the left column on desktop are placed at the bottom on mob
 ## My process
 
 ### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
+<img src='https://github.com/delucis/astro-badge/raw/latest/public/v2/built-with-astro/small.svg' height=32px><img src='https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E' height=32px><img src='https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white' height=32px><img src='https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white' height=32px><img src='https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white' height=32px>
 
 ### What I learned
 
-
-
-
 ### Useful resources
+- [CSS grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout) - The CSS grid layout module excels at dividing a page into major regions or defining the relationship in terms of size, position, and layer, between parts of a control built from HTML primitives.
+- [CSS Grid Generator](https://cssgrid-generator.netlify.app/) - 
 <!-- 
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept. -->
@@ -60,8 +53,7 @@ The two components in the left column on desktop are placed at the bottom on mob
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
+- Website - [Chanda Abdul](https://www.Chandabdul.dev)
+- GitHub - [github.com/Chanda-Abdul](https://github.com/Chanda-Abdul)
+- Frontend Mentor - [@Chanda-Abdul](https://www.frontendmentor.io/profile/Chanda-Abdul)
 

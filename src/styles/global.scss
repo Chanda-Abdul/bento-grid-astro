@@ -30,7 +30,7 @@ body {
     @include flex(column, center, center);
     text-align: center;
     padding: var(--spacing-xxl) var(--spacing-l);
-  
+
     border-radius: 1rem;
     color: var(--liquorice-green);
 
@@ -70,18 +70,20 @@ body {
 
     .pill {
         @include flex(row, center, flex-start);
-        padding: 1.2rem var(--spacing-l) 1.2rem 1.2rem;
+        padding: 1.2rem;
         border-radius: 3.4rem;
         background: var(--white-out);
         box-shadow: -9.781px 11.738px 24.454px 0px rgba(98, 26, 123, 0.05);
         gap: var(--spacing-xs);
+        color: var(--downwell);
+        width: 100%;
 
         .acct {
             @include flex(column, flex-start, center);
-            gap: var(--spacing-xs);
+            // gap: var(--spacing-xs);
 
             .handle {
-                @include displayTextSecondary();
+                // @include displayTextSecondary();
                 color: var(--downwell);
                 font-size: var(--font-size-subtitle);
                 font-weight: var(--font-weight-display);
@@ -89,7 +91,7 @@ body {
                 letter-spacing: -0.96px;
             }
 
-            h4.count {
+            .count {
                 color: var(--mortar-grey);
                 font-size: 1.2rem;
                 font-weight: var(--font-weight-default);
@@ -135,6 +137,7 @@ body {
     &:nth-child(2),
     &:nth-child(6) {
         background-color: var(--white-out);
+
     }
 
     &:nth-child(3),
@@ -171,7 +174,7 @@ body {
 
     &:nth-child(5) {
         padding: var(--spacing-l);
-        align-self: stretch;
+
         gap: var(--spacing-xxl);
 
         img {
@@ -180,6 +183,7 @@ body {
         }
 
         h3 {
+            text-align: center;
             margin: 0 var(--spacing-l);
         }
     }
@@ -233,11 +237,12 @@ body {
 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(auto);
         grid-column-gap: var(--spacing-xl);
         grid-row-gap: var(--spacing-xl);
 
         .card {
+            height: 100%;
 
             &:first-child,
             &:nth-child(4),
@@ -245,10 +250,59 @@ body {
             &:nth-child(6) {
                 grid-column: span 2;
                 padding: var(--spacing-xxxl) 0;
-h1, h2, h3{max-width: 40rem;}
-              
+
+                img {
+                    max-width: 35.7rem;
+                }
             }
 
+            h1,
+            h2,
+            h3,
+            p {
+                max-width: 40rem;
+            }
+
+            &:nth-child(2),
+            &:nth-child(3) {
+
+                @include flex(column, space-between, flex-start);
+                height: 24.7rem;
+                padding: var(--spacing-l);
+
+                h2 {
+                    max-width: 25rem;
+                }
+            }
+
+            &:nth-child(5),
+            &:nth-child(6) {
+                @include flex(row, space-between, center);
+            }
+
+            &:nth-child(5) {
+                padding: var(--spacing-xxl);
+                gap: var(--spacing-xl);
+
+                img {
+                    max-height: 24.6rem;
+                }
+
+                h3 {
+                    text-align: left;
+                    width: 25.7rem;
+                }
+            }
+
+            &:nth-child(6) {
+                padding: var(--spacing-l);
+            }
+
+            &:nth-child(8) {
+                h3 {
+                    max-width: 28rem;
+                }
+            }
         }
     }
 
