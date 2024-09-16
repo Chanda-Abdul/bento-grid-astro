@@ -1,0 +1,32 @@
+:root {
+    /* Primary Colors */
+    --downwell: hsl(0, 0%, 7%);
+    --white-out: hsl(0, 0%, 100%);
+    --liquorice-green: hsl(187, 24%, 22%);
+    --cascading-white: hsl(300, 5%, 96%);
+    --mortar-grey: hsl(0, 0%, 62%);
+    
+    /* Accent Colors */
+    --pale-lavender: hsl(255, 88%, 90%);
+    --astro-purple: hsl(256, 67%, 59%);
+    --hollandaise: rgb(250, 238, 224);
+    --faded-sunlight: hsl(39, 100%, 71%);
+   
+    /* Typography */
+    --default-font: 'DM Sans', sans-serif;
+    --font-size-default: 1.8rem;
+    --font-size-subtitle: 1.6rem;
+    --font-weight-default: 400;
+    --font-weight-display: 500;
+
+    /* Spacing */
+    // --spacing-xxs: 0.4rem;
+    --spacing-xs: 0.8rem;
+    // --spacing-s: 1.2rem;
+    --spacing-m: 1.6rem;
+    --spacing-l: 2.4rem;
+    --spacing-xl: 3.2rem;
+    --spacing-xxl: 4rem;
+    --spacing-xxxl: 6.4rem;
+
+}

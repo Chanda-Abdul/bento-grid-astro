@@ -1,0 +1,119 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    border: 0 solid transparent;
+}
+
+html {
+    /* set 1rem = 10px, 10px/16px = 62.5% */
+    font-size: 62.5%;
+
+    /* prevent iOS font size change */
+    -webkit-text-size-adjust: 100%;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object,
+picture {
+    /* all media elements set to block and full width */
+    display: block;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+main {
+    min-width: 100vw;
+    overflow: hidden;
+}
+
+body {
+    width: 100%;
+    /* reset body line-height */
+    min-height: 100vh;
+    line-height: 1;
+    text-rendering: optimizeSpeed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+input,
+button,
+textarea,
+select {
+    /* inherit fonts for inputs and buttons */
+    font: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* reset heading style */
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+a,
+button {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+a {
+    /* reset anchor style */
+    color: inherit;
+    text-decoration: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+
+button,
+[role='button'] {
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    background: transparent;
+    background-color: transparent;
+    font-family: sans-serif;
+    line-height: 1;
+    border: none;
+    text-align: center;
+    transition:
+        background 250ms ease-in-out,
+        transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+
+    /* assign button hover state*/
+    &:active {
+        transform: scale(0.99);
+    }
+
+    &:focus {
+        outline: 0;
+    }
+}

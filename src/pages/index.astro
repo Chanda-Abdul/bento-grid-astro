@@ -1,16 +1,102 @@
 ---
-
+import Footer from '../components/Footer.astro';
+import '../styles/global.scss';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <link rel='icon' type='image/svg+xml' href='/favicon-32x32.png' />
+    <meta name='viewport' content='width=device-width' />
+    <meta name='generator' content={Astro.generator} />
+    <title>Frontend Mentor | Bento grid</title>
+  </head>
+  <body>
+    <section class="bento">
+    <article class='card'>
+      <h1>Social Media <span class="yellow">10x </span> <span class="italic">Faster </span>with AI</h1>
+      <div class='stars'>
+        <img src='/src/assets/icons/star.svg' alt='five stars' />
+        <img src='/src/assets/icons/star.svg' alt='five stars' />
+        <img src='/src/assets/icons/star.svg' alt='five stars' />
+        <img src='/src/assets/icons/star.svg' alt='five stars' />
+        <img src='/src/assets/icons/star.svg' alt='five stars' />
+      </div>
+      <p>Over 4,000 5-star reviews</p>
+    </article>
+
+    <article class='card'>
+      <div class='accounts'>
+        <div class='pill'>
+          <img src='/src/assets/icons/insta.svg' alt='instagram icon' />
+          <div class='acct'>
+            <h3 class='handle'>@YourCo</h3>
+            <h4 class='count'>12K Followers</h4>
+          </div>
+        </div>
+
+        <div class='pill'>
+          <img src='/src/assets/icons/twitter.svg' alt='twitter icon' />
+
+          <div class='acct'>
+            <h3 class='handle'>@YourCo</h3>
+            <h4 class='count'>8K Followers</h4>
+          </div>
+        </div>
+      </div>
+      <h2>Manage multiple accounts and platforms.</h2>
+    </article>
+
+    <article class='card'>
+      <h2>Maintain a consistent posting schedule.</h2>
+      <img
+        src='/src/assets/media/illustration-consistent-schedule.webp'
+        alt='schedule'
+      />
+    </article>
+
+    <article class='card'>
+      <h2>Schedule to social media.</h2>
+      <img
+        src='src/assets/media/illustration-schedule-posts.webp'
+        alt='timing'
+      />
+      <p>
+        Optimize post timings to publish content at the perfect time for your
+        audience.
+      </p>
+    </article>
+
+    <article class='card'>
+      <img src='/src/assets/media/illustration-grow-followers.webp' alt='' />
+      <h3>Grow followers with non-stop content.</h3>
+    </article>
+
+    <article class='card'>
+      <div class='text'>
+        <h1>>56%</h1>
+        <p>faster audience growth</p>
+      </div>
+      <img
+        src='src/assets/media/illustration-audience-growth.webp'
+        alt='user thumbnails'
+      />
+    </article>
+    <article class='card'>
+      <h3>Create and schedule content <span class="purple">quicker.</span></h3>
+      <img src='src/assets/media/illustration-create-post.webp' alt='create button' />
+    </article>
+
+    <article class='card'>
+      <h3>Write your content using AI.</h3>
+      <img src='src/assets/media/illustration-ai-content.webp' alt='ai' />
+    </article>
+  </section>
+<Footer/>
+  </body>
 </html>
+
+<style lang='scss'>
+
+
+</style>
