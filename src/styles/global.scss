@@ -60,7 +60,7 @@ body {
 
     .accounts {
         width: 100%;
-        @include flex(row, space-between, center);
+        @include flex(row, flex-start, center);
 
     }
 
@@ -72,7 +72,7 @@ body {
         box-shadow: -9.781px 11.738px 24.454px 0px rgba(98, 26, 123, 0.05);
         gap: var(--spacing-xs);
         color: var(--downwell);
-        width: 100%;
+        min-width: 15.4rem;
 
         .acct {
             @include flex(column, flex-start, center);
@@ -128,7 +128,7 @@ body {
     &:nth-child(2),
     &:nth-child(6) {
         background-color: var(--white-out);
-
+        overflow: hidden;
     }
 
     &:nth-child(3),
@@ -183,7 +183,7 @@ body {
         padding: var(--spacing-l);
         gap: var(--spacing-l);
 
-        h1 {
+        h2{
             @include displayTextHeader();
             margin-bottom: var(--spacing-m);
             text-align: left;
