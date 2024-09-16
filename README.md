@@ -20,10 +20,10 @@ This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.
 Your challenge is to build out this bento grid and get it looking as close to the design as possible.
 
 Users should be able to:
-- [ ] View the optimal layout for the interface depending on their device's screen size
+- [x] View the optimal layout for the interface depending on their device's screen size
 <!-- To-do GSAP Animations -->
 **Expected behavior:** 
-- [ ] The two components in the left column on desktop are placed at the bottom on mobile. This is a good opportunity to practice your CSS Grid placement skills.
+- [x] The two components in the left column on desktop are placed at the bottom on mobile. 
 
 ### Screenshot
 
@@ -31,9 +31,9 @@ Users should be able to:
 
 
 ### Links
+- Solution URL: [here](https://github.com/Chanda-Abdul/bento-grid-astro)
+- Live Site URL: [here](https://imaginative-raindrop-d60add.netlify.app/) 
 
-<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
 
 ## My process
 
@@ -45,6 +45,7 @@ Users should be able to:
 ### Useful resources
 - [CSS grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout) - The CSS grid layout module excels at dividing a page into major regions or defining the relationship in terms of size, position, and layer, between parts of a control built from HTML primitives.
 - [CSS Grid Generator](https://cssgrid-generator.netlify.app/) - 
+- [`@mixin` and `@include`](https://sass-lang.com/documentation/at-rules/mixin/) - Mixins allow you to define styles that can be re-used throughout your stylesheet. T
 <!-- 
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept. -->
