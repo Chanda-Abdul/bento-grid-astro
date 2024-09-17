@@ -11,6 +11,7 @@ This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -21,14 +22,17 @@ Your challenge is to build out this bento grid and get it looking as close to th
 
 Users should be able to:
 - [x] View the optimal layout for the interface depending on their device's screen size
-<!-- To-do GSAP Animations -->
+
 **Expected behavior:** 
 - [x] The two components in the left column on desktop are placed at the bottom on mobile. 
 
 ### Screenshot
-
-<!-- ![](./screenshot.jpg) -->
-
+#### Mobile
+![](./public/assets/screens/mobile.png)
+#### Tablet
+![](./public/assets/screens/tablet.png)
+#### Desktop
+![](./public/assets/screens/desktop.png)
 
 ### Links
 - Solution URL: [here](https://github.com/Chanda-Abdul/bento-grid-astro)
@@ -41,6 +45,9 @@ Users should be able to:
 <img src='https://github.com/delucis/astro-badge/raw/latest/public/v2/built-with-astro/small.svg' height=32px><img src='https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E' height=32px><img src='https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white' height=32px><img src='https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white' height=32px><img src='https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white' height=32px>
 
 ### What I learned
+### Continued development
+- [ ] Animations with GSAP
+<!-- To-do GSAP Animations -->
 
 ### Useful resources
 - [CSS grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout) - The CSS grid layout module excels at dividing a page into major regions or defining the relationship in terms of size, position, and layer, between parts of a control built from HTML primitives.
@@ -49,8 +56,6 @@ Users should be able to:
 <!-- 
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept. -->
-
-
 
 ## Author
 
